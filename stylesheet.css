@@ -1,0 +1,31 @@
+*, body{
+	margin:0;
+}
+#sidebar{
+	background-color: orange;
+	width: 20%;
+	height: 100%;
+	display: block; 
+	position: fixed;
+}
+
+#sidetop{
+	background-image: url('background.jpg');
+	width: 100%;
+	height: 20%;
+}
+#sidemenu{
+	background-image: url('background.jpg');
+	width: 100%;
+	height: 50%;
+
+}
+#sidefooter{
+	background-image: url('background.jpg');
+	width: 100%;
+	height:30%;
+}
+
+
+
+
