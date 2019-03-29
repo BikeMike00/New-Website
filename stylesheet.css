@@ -18,6 +18,9 @@
 	border-bottom: 1px solid white;
 
 }
+#logo{
+	margin-top:20px;
+}
 #sidemenu{
 	padding-top: 35px;
 	background-image: url('background.jpg');
@@ -30,8 +33,25 @@
 	background-image: url('background.jpg');
 	width: 100%;
 	height:30%;
-	
 }
+#social{
+	font-size: 14px;
+	padding-bottom: 15px;
+	bottom: 35px;
+	position: absolute;
+}
+#facebook{
+	bottom: 3px;
+	position: absolute;
+}
+#instagram{
+	padding-left: 45px; 
+	bottom: 3px;
+	position: absolute;
+
+
+}
+
 .btn-menu{
 	border: none;
 	border-bottom: 1px solid white;
@@ -47,3 +67,37 @@
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+#background{
+	padding-top: 45px;
+	margin-left: 20%;
+	background-color:#262626;
+	width:80%;
+	min-height:800px;
+	height: auto;
+}
+#section{
+	padding-top:15px;
+	padding-bottom: 15px;
+	width:90%;
+	margin-left: 5%;
+	background-color:black;
+	min-height:200px;
+	height: auto;
+	border-radius:20px;
+}
+.content{
+	margin-top:5px; 
+	background-color: black;
+	width: 90%;
+	margin-left: 5%;
+	min-height: 200px;
+	height: auto;
+	border-bottom: 4px solid white;
+
+}
+.content p{
+	font-size: 25px;
+}
+.content:last-child{
+	border:none;
+}
