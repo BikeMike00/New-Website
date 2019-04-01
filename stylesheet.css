@@ -11,7 +11,9 @@
 }
 
 #sidetop{
-	background-image: url('background.jpg');
+	background-image: url('sidebar.jpg');
+	background-size: 350px 270px;
+	background-repeat: no-repeat;
 	width: 100%;
 	height: 20%;
 
@@ -23,16 +25,20 @@
 }
 #sidemenu{
 	padding-top: 35px;
-	background-image: url('background.jpg');
+	background-image: url('sidebar.jpg');
+	background-size: 520px 880px;
+	background-repeat: no-repeat;
 	width: 100%;
-	height: 50%;
+	height: 58%;
 	border-bottom: 1px solid white;
 
 }
 #sidefooter{
-	background-image: url('background.jpg');
+	background-image: url('sidebar.jpg');
+	background-size: 450px 450px;
+	background-repeat: no-repeat;
 	width: 100%;
-	height:30%;
+	height:22%;
 }
 #social{
 	font-size: 14px;
@@ -45,11 +51,15 @@
 	position: absolute;
 }
 #instagram{
-	padding-left: 45px; 
+	margin-left: 45px; 
 	bottom: 3px;
 	position: absolute;
-
-
+}
+#mail{
+	font-size: 14px;
+	padding-bottom: 36px;
+	bottom: 35px;
+	position: absolute; 
 }
 
 .btn-menu{
@@ -70,9 +80,9 @@
 #background{
 	padding-top: 45px;
 	margin-left: 20%;
-	background-color:#262626;
+	background-image: url('fullbackground.jpg');
 	width:80%;
-	min-height:800px;
+	min-height:900px;
 	height: auto;
 }
 #section{
@@ -97,6 +107,7 @@
 }
 .content p{
 	font-size: 25px;
+	padding-top: 30px;
 }
 .content:last-child{
 	border:none;
